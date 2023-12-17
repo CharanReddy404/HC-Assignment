@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className='text-white'>
       <nav className='container mx-auto px-6 py-3'>
-        <div className='md:flex md:items-center md:justify-between'>
+        <div className='flex justify-between md:flex md:items-center md:justify-between'>
           <div className='flex items-center justify-between'>
             <div className='text-xl font-semibold text-yellow-300'>
               <Link href='/home'>Hitesh Choudhary</Link>

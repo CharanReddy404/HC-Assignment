@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default async function HomePage() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24 bg-black'>
+    <main className='flex min-h-screen flex-col items-center justify-between p-12 md:p-24 bg-black'>
       <div className='text-center text-white'>
         <div className='mb-8'>
           <h1 className='text-3xl m-4'>Welcome to Home Page</h1>
@@ -16,8 +16,8 @@ export default async function HomePage() {
           />
         </div>
         <div className='mt-4 md:mt-2 mb-8'>
-          <ul className='list-none flex justify-center'>
-            <li className='ml-6'>
+          <ul className='list-none flex flex-col md:flex-row justify-center'>
+            <li className='m-6'>
               <Link
                 href='https://youtu.be/o5QE8YYQDaA'
                 target='_blank'
@@ -26,7 +26,7 @@ export default async function HomePage() {
                 While Loop Video
               </Link>
             </li>
-            <li className='ml-6'>
+            <li className='m-6'>
               <Link
                 href='https://youtu.be/WUxCBfm2KAE'
                 target='_blank'
@@ -38,8 +38,8 @@ export default async function HomePage() {
           </ul>
         </div>
         <div className='mt-4 md:mt-2'>
-          <ul className='list-none flex justify-center'>
-            <li className='ml-6'>
+          <ul className='list-none flex flex-col md:flex-row justify-center'>
+            <li className='p-6'>
               <Link
                 href='https://github.com/CharanReddy404/HC-Assignment/blob/main/src/assets/mdFiles/WHILELOOP.md'
                 target='_blank'
@@ -48,7 +48,7 @@ export default async function HomePage() {
                 While Loop Notes
               </Link>
             </li>
-            <li className='ml-6'>
+            <li className='p-6'>
               <Link
                 href='https://github.com/CharanReddy404/HC-Assignment/blob/main/src/assets/mdFiles/FORLOOP.md'
                 target='_blank'
